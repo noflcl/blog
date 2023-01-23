@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=HelpDesk
+Comment=Remote help desk support
+GenericName=HelpDesk
+Exec=xfce4-terminal --geometry 90x34 -e 'bash /usr/local/bin/helpdesk.sh'
+Icon=/usr/share/icons/helpdesk.png
+Terminal=false
+Type=Application
+Categories=GTK;System;
+StartupNotify=true
