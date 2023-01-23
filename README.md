@@ -1,10 +1,9 @@
 # noflcl
 ## blogadocious
 <br>
-<center> 
-
-![banner](./assets/images/blog-banner.jpg)
-</center>
+<p align="center">
+  <img src="./assets/images/blog-banner.jpg">
+</p>
 
 In a world shrouded by chaos, stress, and uncertainty. Rises a champion. One who can encapsulate the fear, supress the anxiety, and free humanity for the monotony of manual work... Well maybe programming isn't a Marvel movie or a Hollywood hacker film come to life. It's more of a slow trudge through endless documentation, Stack Overlfow fu, and YouTube videos with every coder telling you "You're doing that wrong". Who to trust? Who to believe? Maybe that is the true super power of programmers.. Being able to `bullshit.sort()`. 
 
