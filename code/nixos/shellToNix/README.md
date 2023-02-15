@@ -392,3 +392,8 @@ import =
 ---
 ### `root`
 
+Dropbear has nix support and great documentation in the [Nix wiki](https://nixos.wiki/wiki/Remote_LUKS_Unlocking). One of the interesting things for Nix is they recommend doing this over Tor 😎 doesn't get much cooler than that.
+
+`env-config.nix`
+
+`export PS1="\n\[\033[1;32m\][\[\e]0;\u@\h:\w\a\]\u @\033[1;31m\] \h\033[0m\]\033[1;32m\]:\w]\n $ \[\033[0m\]"`
