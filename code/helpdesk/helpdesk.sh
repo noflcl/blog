@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-#
-# @ds9-tech github.com
 
 GREEN='\033[0;32m'
 RED='\033[0;31m'
