@@ -119,8 +119,9 @@ adb devices | tail -n +2 | cut -sf 1 | xargs -IX adb -s X uninstall app.package.
 
 | Command       | Description   |
 | ------------- |:-------------:|
-| adb shell input text `foo!, text to screen`| Print text to screen |
+| adb shell input text `"foo!,\ text \to \screen" `| Input text to device if field is selected |
 | adb shell screencap -p /sdcard/foo.png | Screenshot device |
-| adb shell screenrecord /sdcard/foocreep.mp4| Record screen of device |
+| adb shell screenrecord /sdcard/foocreep.mp4 | Record screen of device |
+| adb shell am start -a android.intent.action.VIEW -d $URL | Open URL in default browser |
 
 <br>
